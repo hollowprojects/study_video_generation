@@ -1,0 +1,16 @@
+{
+  "name": "study-video-generation",
+  "version": "1.0.0",
+  "description": "Generate study/focus videos from WAVs + background image for N8N or CLI",
+  "main": "Script/run-pipeline.js",
+  "scripts": {
+    "pipeline": "node Script/run-pipeline.js",
+    "pipeline:file": "node Script/run-pipeline.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": ["study", "video", "ffmpeg", "n8n"],
+  "author": "",
+  "license": "MIT"
+}
